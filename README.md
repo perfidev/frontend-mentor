@@ -14,3 +14,4 @@ Cada desafio vem com especificações detalhadas, permitindo que os desenvolvedo
 |  #  | Projeto                                                                           | Repo                                                                                               |
 | --- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 |  1  | [Qr code component](https://perfidev.github.io/frontend-mentor/qr-code-component) | [Link para o Repositório](https://github.com/perfidev/frontend-mentor/tree/main/qr-code-component) |
+|  2  | [Blog preview card](https://perfidev.github.io/frontend-mentor/blog-preview-card) | [Link para o Repositório](https://github.com/perfidev/frontend-mentor/tree/main/blog-preview-card) |
