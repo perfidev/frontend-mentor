@@ -19,7 +19,7 @@ const solutions = [
   },
   {
     name: "Recipe page",
-    img: "./recipe-page/design/destkop-design.jpg",
+    img: "./recipe-page/design/desktop-design.jpg",
     deploy: "https://perfidev.github.io/frontend-mentor/recipe-page",
     repo: "https://github.com/perfidev/frontend-mentor/tree/main/recipe-page",
   },
