@@ -17,5 +17,11 @@ const solutions = [
     deploy: "https://perfidev.github.io/frontend-mentor/social-links-profile",
     repo: "https://github.com/perfidev/frontend-mentor/tree/main/social-links-profile",
   },
+  {
+    name: "Recipe page",
+    img: "./recipe-page/design/destkop-design.jpg",
+    deploy: "https://perfidev.github.io/frontend-mentor/recipe-page",
+    repo: "https://github.com/perfidev/frontend-mentor/tree/main/recipe-page",
+  },
 ];
 export default solutions;
