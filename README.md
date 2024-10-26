@@ -16,3 +16,4 @@ Cada desafio vem com especificações detalhadas, permitindo que os desenvolvedo
 |  1  | [Qr code component](https://perfidev.github.io/frontend-mentor/qr-code-component)       | [Link para o Repositório](https://github.com/perfidev/frontend-mentor/tree/main/qr-code-component)    |
 |  2  | [Blog preview card](https://perfidev.github.io/frontend-mentor/blog-preview-card)       | [Link para o Repositório](https://github.com/perfidev/frontend-mentor/tree/main/blog-preview-card)    |
 |  3  | [Social links profile](https://perfidev.github.io/frontend-mentor/social-links-profile) | [Link para o Repositório](https://github.com/perfidev/frontend-mentor/tree/main/social-links-profile) |
+|  4  | [Recipe page](https://perfidev.github.io/frontend-mentor/recipe-page) | [Link para o Repositório](https://github.com/perfidev/frontend-mentor/tree/main/recipe-page) |
