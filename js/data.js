@@ -23,5 +23,11 @@ const solutions = [
     deploy: "https://perfidev.github.io/frontend-mentor/recipe-page",
     repo: "https://github.com/perfidev/frontend-mentor/tree/main/recipe-page",
   },
+  {
+    name: "Order summary component",
+    img: "./order-summary-component/design/desktop-design.jpg",
+    deploy: "https://perfidev.github.io/frontend-mentor/order-summary-component",
+    repo: "https://github.com/perfidev/frontend-mentor/tree/main/order-summary-component",
+  },
 ];
 export default solutions;
