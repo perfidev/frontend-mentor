@@ -1,0 +1,194 @@
+$color-primary: hsl(215, 51%, 70%);
+$color-secondary: hsl(178, 100%, 50%);
+$color-main-bg: hsl(217, 54%, 11%);
+$color-card-bg: hsl(216, 50%, 16%);
+$color-line: hsl(215, 32%, 27%);
+$color-white: hsl(0, 0%, 100%);
+
+$ff-primary: "Outfit", sans-serif;
+$fs-main: 1.125rem;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100svh;
+    padding: 1.5rem;
+    background-color: $color-main-bg;
+    font-family: $ff-primary;
+    font-size: $fs-main;
+    color: $color-primary;
+}
+
+.card {
+    max-width: 21.875rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: $color-card-bg;
+
+    @media (min-width: 48em) {
+        padding: 1.5rem 1.5rem 2rem 1.5rem;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            display: inline-block;
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        &:hover .card__image__icon,
+        &:active .card__image__icon {
+            opacity: 1;
+        }
+
+        &:hover .card__image,
+        &:active .card__image {
+            background-color: $color-secondary;
+        }
+
+        &:hover .card__image img,
+        &:active .card__image img {
+            opacity: 0.7;
+        }
+    }
+
+    &__image {
+        position: relative;
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+
+        & img {
+            display: block;
+            max-width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        &__icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: all 0.3s;
+            z-index: 99;
+        }
+    }
+
+    &__title {
+        margin-bottom: 0.75rem;
+        font-size: 1.375rem;
+        font-weight: 600;
+
+        @media (min-width: 48em) {
+            margin-bottom: 1rem;
+        }
+
+        &__link {
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: $color-white;
+            }
+
+            &:hover,
+            &:active {
+                color: $color-secondary;
+            }
+        }
+    }
+
+    &__description {
+        font-weight: 300;
+        line-height: 26px;
+        margin-bottom: 1rem;
+
+        @media (min-width: 48em) {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__information {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding-bottom: 1rem;
+
+        @media (min-width: 48em) {
+            padding-bottom: 1.5rem;
+        }
+
+        &__value,
+        &__time {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9375rem;
+
+            @media (min-width: 48em) {
+                font-size: 1rem;
+            }
+        }
+
+        &__value {
+            font-weight: 600;
+            color: $color-secondary;
+        }
+
+        &::after {
+            display: block;
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: $color-line;
+        }
+    }
+
+    &__author {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        &__image {
+            width: 33px;
+            height: 33px;
+            border-radius: 100%;
+            border: 1px solid $color-white;
+        }
+
+        &__text {
+            font-size: 0.9375rem;
+
+            @media (min-width: 48em) {
+                font-size: 1rem;
+            }
+        }
+
+        &__link {
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: $color-white;
+            }
+
+            &:hover,
+            &:active {
+                color: $color-secondary;
+            }
+        }
+    }
+}
