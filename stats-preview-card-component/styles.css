@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  padding: 1.5rem;
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  border-radius: 8px;
+  background-color: hsl(244, 38%, 16%);
+  overflow: hidden;
+}
+@media (min-width: 48em) {
+  .card {
+    flex-direction: row-reverse;
+    max-width: 69.375rem;
+    max-height: 27.875rem;
+  }
+}
+.card__image {
+  position: relative;
+  width: 100%;
+  min-height: 15rem;
+}
+@media (min-width: 48em) {
+  .card__image {
+    max-width: 33.75rem;
+  }
+}
+.card__image picture img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+.card__image::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(277, 64%, 61%);
+  z-index: 2;
+  opacity: 0.75;
+}
+.card__content {
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: center;
+}
+@media (min-width: 48rem) {
+  .card__content {
+    padding: 4.4375rem 5.9375rem 3.6875rem 4.5rem;
+    text-align: left;
+  }
+}
+.card__title {
+  font-size: 1.75rem;
+  line-height: 32px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1rem;
+}
+@media (min-width: 48rem) {
+  .card__title {
+    font-size: 2.25rem;
+    line-height: 44px;
+    margin-bottom: 1.5625rem;
+  }
+}
+.card__title span {
+  color: hsl(277, 64%, 61%);
+}
+.card__description {
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  opacity: 0.75;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 48rem) {
+  .card__description {
+    max-width: 23.375rem;
+    margin-bottom: 4.5rem;
+  }
+}
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+@media (min-width: 48rem) {
+  .card__container {
+    flex-direction: row;
+    gap: 3.875rem;
+  }
+}
+.card__group {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 0.125rem;
+}
+@media (min-width: 48rem) {
+  .card__group {
+    align-items: flex-start;
+  }
+}
+.card__group__subtitle {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.card__group__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
