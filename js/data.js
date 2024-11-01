@@ -35,5 +35,11 @@ const solutions = [
     deploy: "https://perfidev.github.io/frontend-mentor/nft-preview-card-component",
     repo: "https://github.com/perfidev/frontend-mentor/tree/main/nft-preview-card-component",
   },
+  {
+    name: "Stats preview card component",
+    img: "./stats-preview-card-component/design/desktop-design.jpg",
+    deploy: "https://perfidev.github.io/frontend-mentor/stats-preview-card-component",
+    repo: "https://github.com/perfidev/frontend-mentor/tree/main/stats-preview-card-component",
+  },
 ];
 export default solutions;
