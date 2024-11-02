@@ -41,5 +41,11 @@ const solutions = [
     deploy: "https://perfidev.github.io/frontend-mentor/stats-preview-card-component",
     repo: "https://github.com/perfidev/frontend-mentor/tree/main/stats-preview-card-component",
   },
+  {
+    name: "Product preview card component",
+    img: "./product-preview-card-component/design/desktop-design.jpg",
+    deploy: "https://perfidev.github.io/frontend-mentor/product-preview-card-component",
+    repo: "https://github.com/perfidev/frontend-mentor/tree/main/product-preview-card-component",
+  },
 ];
 export default solutions;
