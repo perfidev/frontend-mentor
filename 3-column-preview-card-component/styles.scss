@@ -14,25 +14,29 @@ $color-others: hsl(0, 0%, 95%);
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100svh;
     padding: 1.5rem;
     font-family: $ff-primary;
     font-size: $fs-main;
     color: $color-paragraphs;
+    background-color: $color-others;
+
+    @media screen and (min-width: 48.75em) {
+        padding: 0 1.5rem;
+    }
 }
 
 .cars {
     display: flex;
     flex-direction: column;
     max-width: 57.5rem;
+    margin: auto;
     border-radius: 8px;
     overflow: hidden;
 
     @media screen and (min-width: 48.75em) {
         flex-direction: row;
+        margin-top: 171px;
     }
 
     &__category {
