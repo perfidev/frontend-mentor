@@ -10,7 +10,7 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.9375rem;
   color: hsla(0, 0%, 100%, 0.75);
-  background-color: hsl(0, 0%, 95%);
+  background-color: #f2f2f2;
 }
 @media screen and (min-width: 48.75em) {
   body {
@@ -53,12 +53,11 @@ body {
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 2.5rem;
   text-transform: uppercase;
-  color: hsl(0, 0%, 95%);
+  color: #f2f2f2;
   margin-bottom: 1.5625rem;
 }
 .cars__description {
   line-height: 25px;
-  opacity: 0.75;
   margin-bottom: 1.5625rem;
 }
 @media screen and (min-width: 48.75em) {
@@ -72,34 +71,34 @@ body {
   padding: 0.625rem 1.9rem;
   border-radius: 25px;
   border: 2px solid transparent;
-  background-color: hsl(0, 0%, 95%);
+  background-color: #f2f2f2;
   line-height: 25px;
   text-decoration: none;
   text-transform: capitalize;
 }
 .cars__btn:hover, .cars__btn:active, .cars__btn:focus, .cars__btn:focus-visible {
-  border: 2px solid hsl(0, 0%, 95%);
+  border: 2px solid #f2f2f2;
 }
 .cars__btn--sedans:link, .cars__btn--sedans:visited {
   color: hsl(31, 77%, 52%);
 }
 .cars__btn--sedans:hover, .cars__btn--sedans:active, .cars__btn--sedans:focus, .cars__btn--sedans:focus-visible {
   background-color: hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 95%);
+  color: #f2f2f2;
 }
 .cars__btn--suvs:link, .cars__btn--suvs:visited {
   color: hsl(184, 100%, 22%);
 }
 .cars__btn--suvs:hover, .cars__btn--suvs:active, .cars__btn--suvs:focus, .cars__btn--suvs:focus-visible {
   background-color: hsl(184, 100%, 22%);
-  color: hsl(0, 0%, 95%);
+  color: #f2f2f2;
 }
 .cars__btn--luxury:link, .cars__btn--luxury:visited {
   color: hsl(179, 100%, 13%);
 }
 .cars__btn--luxury:hover, .cars__btn--luxury:active, .cars__btn--luxury:focus, .cars__btn--luxury:focus-visible {
   background-color: hsl(179, 100%, 13%);
-  color: hsl(0, 0%, 95%);
+  color: #f2f2f2;
 }
 
 /*# sourceMappingURL=styles.css.map */

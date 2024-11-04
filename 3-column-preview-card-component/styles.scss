@@ -5,7 +5,7 @@ $color-orange: hsl(31, 77%, 52%);
 $color-cyan: hsl(184, 100%, 22%);
 $color-dark-cyan: hsl(179, 100%, 13%);
 $color-paragraphs: hsla(0, 0%, 100%, 0.75);
-$color-others: hsl(0, 0%, 95%);
+$color-others: #f2f2f2;
 
 * {
     margin: 0;
@@ -63,7 +63,6 @@ body {
 
     &__description {
         line-height: 25px;
-        opacity: 0.75;
         margin-bottom: 1.5625rem;
 
         @media screen and (min-width: 48.75em) {
