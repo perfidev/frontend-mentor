@@ -53,5 +53,11 @@ const solutions = [
     deploy: "https://perfidev.github.io/frontend-mentor/3-column-preview-card-component",
     repo: "https://github.com/perfidev/frontend-mentor/tree/main/3-column-preview-card-component",
   },
+  {
+    name: "Four card feature section",
+    img: "./four-card-feature-section/design/desktop-design.jpg",
+    deploy: "https://perfidev.github.io/frontend-mentor/four-card-feature-section",
+    repo: "https://github.com/perfidev/frontend-mentor/tree/main/four-card-feature-section",
+  },
 ];
 export default solutions;
