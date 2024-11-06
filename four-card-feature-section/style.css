@@ -14,11 +14,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 0.9375rem;
 }
-@media only screen and (min-width: 48em) {
-  body {
-    padding: 4.75rem 2rem;
-  }
-}
 
 .feature {
   display: flex;
@@ -150,6 +145,7 @@ body {
 }
 
 .heading-secondary {
+  max-height: 4.375rem;
   font-size: 1.5rem;
   font-weight: 200;
   letter-spacing: 0.17px;
@@ -157,7 +153,9 @@ body {
 }
 @media only screen and (min-width: 48em) {
   .heading-secondary {
+    max-height: 6.375rem;
     font-size: 2.25rem;
+    letter-spacing: 0.25px;
   }
 }
 .heading-secondary--sub {
