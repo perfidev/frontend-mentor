@@ -23,6 +23,10 @@ body {
     background-color: $color-very-light-gray;
     font-family: $ff-main;
     font-size: $fs-main;
+
+    @media only screen and (min-width: 64em) {
+        padding: 0;
+    }
 }
 
 .feature {
