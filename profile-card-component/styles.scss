@@ -1,0 +1,131 @@
+$ff: "Kumbh Sans", sans-serif;
+$fs: 1.125rem;
+$color-primary: hsl(185, 75%, 39%);
+$color-heading: hsl(229, 23%, 23%);
+$color-paragraph: hsl(227, 10%, 46%);
+$color-line: hsl(0, 0%, 59%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100svh;
+    padding: 1.5rem;
+    padding-left: 25px;
+    background-color: $color-primary;
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: -476px -352px, 176px 347px;
+
+    font-family: $ff;
+    font-size: $fs;
+
+    @media (min-width: 64em) {
+        background-size: contain, contain;
+        background-position: -52px -294px, 768px 347px;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: #e8e9ec;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    
+    width: 100%;
+    max-width: 21.875rem;
+    padding-bottom: 1.5rem;
+    border-radius: 15px;
+
+    box-shadow: 0 50px 100px -20px #08465E;
+    background-color: #fff;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+
+    &__image {
+        display: block;
+        width: 6rem;
+        margin-top: 92px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+    }
+
+    &__user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+
+        &__title {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+        }
+
+        &__name {
+            font-size: $fs;
+            color: $color-heading;
+            text-transform: capitalize;
+        }
+
+        &__age {
+            color: $color-paragraph;
+        }
+
+        &__location {
+            font-size: 0.875rem;
+            color: $color-paragraph;
+            text-transform: capitalize;
+        }
+    }
+
+    &__stats {
+        display: flex;
+        justify-content: space-between;
+        width: 233px;
+        height: 2.5rem;
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 9px;
+        }
+
+        &__data {
+            font-weight: 700;
+            color: $color-heading;
+            line-height: 1;
+        }
+
+        &__label {
+            font-size: 0.625rem;
+            letter-spacing: 1.5px;
+            color: $color-paragraph;
+            line-height: 1;
+        }
+    }
+}
